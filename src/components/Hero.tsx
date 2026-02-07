@@ -40,8 +40,7 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="text-lg text-white/50 mb-12 max-w-2xl mx-auto"
         >
-          Join innovators, developers, and healthcare professionals for 10 days of
-          building solutions that transform patient care and medical research.
+          Join innovators, developers and healthcare changemakers for 3 days of building solutions that transform health
         </motion.p>
 
         <motion.div
@@ -72,13 +71,13 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.6 }}
-          className="grid grid-cols-2 md:grid-cols-4 gap-8"
+          className="grid grid-cols-2 md:grid-cols-3 gap-8"
         >
           {[
-            { value: '10 days', label: 'Of Building' },
-            { value: '$50K', label: 'In Prizes' },
-            { value: '500+', label: 'Participants' },
-            { value: '50+', label: 'Mentors' },
+            { value: '3 days', label: 'Of Building' },
+            // { value: 'XX', label: 'On Prizes' },
+            { value: '100+', label: 'Participants' },
+            { value: '20+', label: 'Mentors' },
           ].map((stat, index) => (
             <motion.div
               key={stat.label}

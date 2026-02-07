@@ -60,9 +60,7 @@ export default function About() {
             What is <span className="gradient-text">Advance Health</span>?
           </h2>
           <p className="text-lg text-white/60 max-w-3xl mx-auto">
-            Advance Health is a 48-hour Ideathon bringing together the brightest minds
-            in technology and healthcare to tackle the most pressing challenges in
-            medicine, patient care, and health research.
+            Advance Health is an ideathon spread over 3 days, uniting the brightest minds in technology and healthcare to tackle pressing challenges in medicine, patient care and health research.
           </p>
         </motion.div>
 
@@ -94,19 +92,16 @@ export default function About() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h3 className="text-2xl md:text-3xl font-bold mb-4">
-                Why Healthcare Innovation?
+                Why Advance Health?
               </h3>
               <p className="text-white/60 mb-6">
-                Healthcare is ripe for disruption. From AI-powered diagnostics to
-                telemedicine platforms, the intersection of technology and medicine
-                offers unprecedented opportunities to save lives and improve care.
+                Connect with passionate changemakers from different walks of life such as medicine and build solutions that transform patient outcomes.
               </p>
               <ul className="space-y-3">
                 {[
-                  'Access to real healthcare datasets',
-                  'Mentorship from industry experts',
-                  'Potential for real-world implementation',
-                  'Networking with healthcare leaders',
+                  'Network with passionate individuals',
+                  'Access to real world solutions',
+                  'Mentorship from experts',
                 ].map((item, i) => (
                   <motion.li
                     key={i}
