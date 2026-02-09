@@ -7,35 +7,35 @@ import { useRef, useState } from 'react';
 const faqs = [
   {
     question: 'Who can participate?',
-    answer: 'Anyone passionate about healthcare innovation! We welcome developers, designers, healthcare professionals, researchers, and students. You can participate individually or in teams of up to 4 members.',
-  },
-  {
-    question: 'Do I need to have a team beforehand?',
-    answer: 'No! We have a team formation session at the beginning of the Ideathon where you can meet other participants and form teams. Solo participants are also welcome.',
-  },
-  {
-    question: 'What should I bring?',
-    answer: 'Bring your laptop, charger, and any hardware you might need for your project. We provide WiFi, power outlets, meals, snacks, and a comfortable building space.',
-  },
-  {
-    question: 'Is there a participation fee?',
-    answer: 'No, Advance Health is completely free to participate! We cover meals, snacks, and swag for all participants.',
+    answer: 'Advance Health welcomes students from diverse academic backgrounds including medicine, engineering, computer science, and other fields. You can participate individually or in teams.',
   },
   {
     question: 'Do I need healthcare experience?',
-    answer: 'Not at all! While healthcare knowledge is helpful, we value diverse perspectives. Mentors with healthcare expertise will be available to guide you.',
+    answer: 'Not at all! While healthcare knowledge is helpful, we value diverse perspectives and cross-disciplinary collaboration. Mentors with healthcare expertise will be available to guide you through the problem spaces.',
   },
   {
-    question: 'What are the judging criteria?',
-    answer: 'Projects are judged on innovation, technical implementation, potential impact on healthcare, and presentation quality. Each track may have additional specific criteria.',
+    question: 'Do I need to have a team beforehand?',
+    answer: 'No! We have ice-breaking and team formation sessions on Day 1 (Feb 27) where you can meet other participants and form teams. Solo participants are also welcome.',
   },
   {
-    question: 'Can I work on a pre-existing project?',
-    answer: 'All projects must be started from scratch at the Ideathon. However, you can come with ideas and use open-source libraries and APIs.',
+    question: 'What are the event dates and location?',
+    answer: 'The hackathon runs across three days: Feb 27-28 and March 15, 2026. All sessions are held at The Business School, Trinity College Dublin. Feb 27: 18:00-20:00, Feb 28: 09:00-16:00, Mar 15: 09:00-14:00.',
   },
   {
-    question: 'Will there be prizes?',
-    answer: 'Yes! We have over $50,000 in prizes including cash awards, cloud credits, mentorship opportunities, and the chance to pilot your solution with healthcare partners.',
+    question: 'What are the five innovation tracks?',
+    answer: 'The tracks are: Medical Devices, AI Solutions in Healthcare, Women\'s Health, Healthcare Screening & Optimisation, and Global Health. Each track addresses urgent challenges in healthcare and integrates the UN Sustainable Development Goals.',
+  },
+  {
+    question: 'Is there a participation fee?',
+    answer: 'No, Advance Health is completely free to participate! We provide meals, snacks, and mentorship for all participants across all three days.',
+  },
+  {
+    question: 'What should I bring?',
+    answer: 'Bring your laptop, charger, and any hardware you might need for your project. We provide WiFi, power outlets, meals, snacks, and a comfortable building space at Trinity Business School.',
+  },
+  {
+    question: 'Will there be prizes and what are the judging criteria?',
+    answer: 'Yes! Top 3-5 groups will be selected to refine their ideas over 2 weeks with mentor supervision and present at Demo Day. Winners will be selected based on innovation, technical implementation, ethical impact, potential to address healthcare challenges, and presentation quality.',
   },
 ];
 

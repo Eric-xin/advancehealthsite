@@ -64,8 +64,8 @@ const footerLinks = [
     title: 'Contact',
     links: [
       { name: 'contact@advancehealth.ie', href: 'mailto:contact@advancehealth.ie' },
-      { name: 'Sponsor Us', href: '/coming-soon' },
-      { name: 'Become a Mentor', href: '/coming-soon' },
+      { name: 'Become a Sponsor', href: 'https://www.canva.com/design/DAG4S599y08/KFhWWVulRq_F0pel8fOOVg/view' },
+      { name: 'Become a Mentor', href: 'mailto:contact@advancehealth.ie' },
     ],
   },
 ];
@@ -84,8 +84,7 @@ export default function Footer() {
               Advance Health
             </motion.a>
             <p className="text-white/50 text-sm mb-6 max-w-sm">
-              An Ideathon dedicated to building the future of healthcare through
-              technology, innovation, and collaboration.
+              Ireland's first student-led HealthTech and MedTech innovation hackathon.
             </p>
             <div className="flex gap-4">
               {socialLinks.map((social) => (

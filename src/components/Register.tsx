@@ -26,27 +26,27 @@ export default function Register() {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Ready to <span className="gradient-text">Innovate</span>?
+              Ready to Join <span className="gradient-text">Advance Health 2026</span>?
             </h2>
             <p className="text-lg text-white/60 mb-8 max-w-2xl mx-auto">
-              Join hundreds of innovators building the future of healthcare.
-              Applications are open until spots fill up.
+              Join 80+ passionate changemakers from across Ireland to develop ethical, impactful solutions to real-world healthcare challenges.
+              Applications are now open!
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
               <motion.a
-                href="#"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdXjP4DGZXweGOdDQQV3VORPMJ6rreePVXZQ6kbApmwQpnDWA/viewform?pli=1"
                 className="btn-primary text-lg px-10 py-4 inline-flex items-center justify-center gap-2"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                Apply Now
+                Register Now
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
               </motion.a>
               <motion.a
-                href="#"
+                href="https://www.canva.com/design/DAG4S599y08/KFhWWVulRq_F0pel8fOOVg/view?utm_content=DAG4S599y08&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h41de68f344"
                 className="btn-secondary text-lg px-10 py-4 inline-flex items-center justify-center gap-2"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -56,7 +56,7 @@ export default function Register() {
             </div>
 
             <p className="text-sm text-white/40">
-              Application deadline: March 15, 2026
+              Event: 27-28th Feb & 15th March 2026 | The Business School, Trinity College Dublin
             </p>
           </motion.div>
 

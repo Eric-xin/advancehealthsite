@@ -5,34 +5,28 @@ import { useInView } from 'framer-motion';
 import { useRef, useState } from 'react';
 
 const schedule = {
-  'Day 1': [
-    { time: '9:00 AM', event: 'Check-in & Registration', type: 'logistics' },
-    { time: '10:00 AM', event: 'Opening Ceremony', type: 'main' },
-    { time: '11:00 AM', event: 'Team Formation & Ideation', type: 'activity' },
-    { time: '12:00 PM', event: 'Lunch Break', type: 'break' },
-    { time: '1:00 PM', event: 'Building Begins!', type: 'main' },
-    { time: '3:00 PM', event: 'Workshop: Healthcare APIs', type: 'workshop' },
-    { time: '6:00 PM', event: 'Dinner', type: 'break' },
-    { time: '8:00 PM', event: 'Mentor Office Hours', type: 'activity' },
-    { time: '11:00 PM', event: 'Late Night Snacks', type: 'break' },
+  'Day 1 - Feb 27': [
+    { time: '18:00', event: 'Registration', type: 'logistics' },
+    { time: '18:30', event: 'Welcoming Speech & Sponsor Introductions', type: 'main' },
+    { time: '18:45', event: 'Tracks Reveal + Problem Statements', type: 'activity' },
+    { time: '19:25', event: 'Ice Breaking & Team Bonding', type: 'break' },
+    { time: '20:00', event: 'Closing Remarks & Next-Day Briefing', type: 'main' },
   ],
-  'Day 2': [
-    { time: '8:00 AM', event: 'Breakfast', type: 'break' },
-    { time: '10:00 AM', event: 'Workshop: ML in Healthcare', type: 'workshop' },
-    { time: '12:00 PM', event: 'Lunch Break', type: 'break' },
-    { time: '1:00 PM', event: 'Progress Check-ins', type: 'activity' },
-    { time: '3:00 PM', event: 'Workshop: Pitching Your Idea', type: 'workshop' },
-    { time: '6:00 PM', event: 'Dinner', type: 'break' },
-    { time: '9:00 PM', event: 'Code Freeze Warning', type: 'logistics' },
-    { time: '11:59 PM', event: 'Submissions Due', type: 'main' },
+  'Day 2 - Feb 28': [
+    { time: '09:00', event: 'Keynote Speaker / Fireside Chat', type: 'main' },
+    { time: '09:30', event: 'Workshop: Design Thinking (OpenIncubator)', type: 'workshop' },
+    { time: '10:00', event: 'Tea Break', type: 'break' },
+    { time: '10:15', event: 'Sprint 1: Group Ideation with Mentor Elevator Pitches', type: 'activity' },
+    { time: '11:30', event: 'Lunch Served', type: 'break' },
+    { time: '12:30', event: 'Sprint 2: Group Ideation & Building', type: 'activity' },
+    { time: '15:00', event: 'Sprint 3: Final Ideation & Video Pitches', type: 'main' },
+    { time: '16:00', event: 'Conclude', type: 'main' },
   ],
-  'Day 3': [
-    { time: '9:00 AM', event: 'Breakfast & Prep', type: 'break' },
-    { time: '10:00 AM', event: 'Demo Presentations Begin', type: 'main' },
-    { time: '1:00 PM', event: 'Lunch During Demos', type: 'break' },
-    { time: '3:00 PM', event: 'Judging Deliberation', type: 'activity' },
-    { time: '4:00 PM', event: 'Awards Ceremony', type: 'main' },
-    { time: '5:00 PM', event: 'Closing & Networking', type: 'main' },
+  'Day 3 - Mar 15': [
+    { time: '09:00', event: 'Kick-Off', type: 'logistics' },
+    { time: '09:15', event: 'Final Presentations', type: 'main' },
+    { time: '12:00', event: 'Judging & Lunch', type: 'break' },
+    { time: '14:00', event: 'Closing Remarks & Award Ceremony', type: 'main' },
   ],
 };
 
@@ -47,7 +41,7 @@ const typeColors: Record<string, string> = {
 export default function Schedule() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
-  const [activeDay, setActiveDay] = useState('Day 1');
+  const [activeDay, setActiveDay] = useState('Day 1 - Feb 27');
 
   return (
     <section id="schedule" className="py-32 px-6" ref={ref}>
@@ -62,7 +56,7 @@ export default function Schedule() {
             <span className="gradient-text">Schedule</span>
           </h2>
           <p className="text-lg text-white/60 max-w-2xl mx-auto">
-            Three days of innovation, learning, and building.
+            27th-28th February & 15th March at The Business School, Trinity College Dublin.
           </p>
         </motion.div>
 

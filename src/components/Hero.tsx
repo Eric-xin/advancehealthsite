@@ -31,7 +31,7 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-xl md:text-2xl text-white/60 mb-4"
         >
-          Ideathon for Medicine & Healthcare Innovation
+          Ireland's First Student-Led HealthTech & MedTech Innovation Hackathon
         </motion.p>
 
         <motion.p
@@ -40,7 +40,7 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="text-lg text-white/50 mb-12 max-w-2xl mx-auto"
         >
-          Join innovators, developers and healthcare changemakers for 3 days of building solutions that transform health
+          Bringing together the brightest students from medicine, engineering, and computer science to develop ethical, impactful solutions to real-world healthcare challenges.
         </motion.p>
 
         <motion.div
@@ -74,10 +74,9 @@ export default function Hero() {
           className="grid grid-cols-2 md:grid-cols-3 gap-8"
         >
           {[
-            { value: '3 days', label: 'Of Building' },
-            // { value: 'XX', label: 'On Prizes' },
-            { value: '100+', label: 'Participants' },
-            { value: '20+', label: 'Mentors' },
+            { value: '80+', label: 'Passionate Changemakers' },
+            { value: '5', label: 'Innovation Tracks' },
+            { value: '3', label: 'Days of Building' },
           ].map((stat, index) => (
             <motion.div
               key={stat.label}

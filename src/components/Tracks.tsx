@@ -6,39 +6,33 @@ import { useRef } from 'react';
 
 const tracks = [
   {
-    title: 'AI Diagnostics',
-    description: 'Build machine learning models for early disease detection and medical imaging analysis.',
-    icon: '🧠',
+    title: 'Medical Devices',
+    description: 'Design and prototyping of assistive, diagnostic, or therapeutic technologies.',
+    icon: '🏥',
     color: 'from-blue-500 to-cyan-500',
   },
   {
-    title: 'Patient Care',
-    description: 'Create tools that improve patient experience, communication, and care coordination.',
-    icon: '💊',
+    title: 'AI Solutions in Healthcare',
+    description: 'Development of data-driven tools, diagnostic algorithms, and predictive models.',
+    icon: '🧠',
     color: 'from-purple-500 to-pink-500',
   },
   {
-    title: 'Mental Health',
-    description: 'Develop solutions for mental wellness, therapy access, and emotional support.',
-    icon: '🧘',
+    title: "Women's Health",
+    description: 'Innovations supporting female health, reproductive medicine, and healthcare accessibility.',
+    icon: '💪',
     color: 'from-green-500 to-teal-500',
   },
   {
-    title: 'Health Data',
-    description: 'Work with healthcare data to uncover insights and improve decision-making.',
+    title: 'Healthcare Screening & Optimisation',
+    description: 'Enhancing screening workflows, efficiency, and diagnostic accuracy.',
     icon: '📊',
     color: 'from-orange-500 to-yellow-500',
   },
   {
-    title: 'Accessibility',
-    description: 'Make healthcare more accessible to underserved communities and people with disabilities.',
-    icon: '♿',
-    color: 'from-indigo-500 to-blue-500',
-  },
-  {
-    title: 'Open Innovation',
-    description: 'Have a unique idea? This track welcomes all healthcare-related innovations.',
-    icon: '💡',
+    title: 'Global Health',
+    description: 'Addressing challenges such as antimicrobial resistance, vaccination, and ageing populations.',
+    icon: '🌍',
     color: 'from-rose-500 to-purple-500',
   },
 ];
@@ -60,8 +54,7 @@ export default function Tracks() {
             <span className="gradient-text">Tracks</span>
           </h2>
           <p className="text-lg text-white/60 max-w-2xl mx-auto">
-            Choose your focus area and build something that matters.
-            Each track offers unique challenges and mentorship.
+            Compete across five innovation tracks addressing urgent challenges in global health and biomedical innovation. Each track integrates the United Nations Sustainable Development Goals to ensure solutions are ethical, globally relevant and socially impactful.
           </p>
         </motion.div>
 
