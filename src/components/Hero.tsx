@@ -50,20 +50,20 @@ export default function Hero() {
           className="flex flex-col sm:flex-row gap-4 justify-center mb-16"
         >
           <motion.a
-            href="#register"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdXjP4DGZXweGOdDQQV3VORPMJ6rreePVXZQ6kbApmwQpnDWA/viewform?pli=1"
             className="btn-primary text-lg px-8 py-4"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            Apply Now
+            Register Now
           </motion.a>
           <motion.a
-            href="#about"
+            href="/coming-soon"
             className="btn-secondary text-lg px-8 py-4"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            Learn More
+            Submit Project
           </motion.a>
         </motion.div>
 
