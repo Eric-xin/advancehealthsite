@@ -35,6 +35,12 @@ const tracks = [
     icon: '🌍',
     color: 'from-rose-500 to-purple-500',
   },
+  {
+    title: 'Open Track',
+    description: 'Freedom to innovate! Design any healthcare solution you envision—no boundaries, just creativity.',
+    icon: '🚀',
+    color: 'from-indigo-500 to-violet-500',
+  },
 ];
 
 export default function Tracks() {
@@ -54,7 +60,7 @@ export default function Tracks() {
             <span className="gradient-text">Tracks</span>
           </h2>
           <p className="text-lg text-white/60 max-w-2xl mx-auto">
-            Compete across five innovation tracks addressing urgent challenges in global health and biomedical innovation. Each track integrates the United Nations Sustainable Development Goals to ensure solutions are ethical, globally relevant and socially impactful.
+            Compete across six innovation tracks addressing urgent challenges in global health and biomedical innovation. Each track integrates the United Nations Sustainable Development Goals to ensure solutions are ethical, globally relevant and socially impactful.
           </p>
         </motion.div>
 

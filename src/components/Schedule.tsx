@@ -22,7 +22,7 @@ const schedule = {
     { time: '15:00', event: 'Sprint 3: Final Ideation & Video Pitches', type: 'main' },
     { time: '16:00', event: 'Conclude', type: 'main' },
   ],
-  'Day 3 - Mar 15': [
+  'Day 3 - Mar 14': [
     { time: '09:00', event: 'Kick-Off', type: 'logistics' },
     { time: '09:15', event: 'Final Presentations', type: 'main' },
     { time: '12:00', event: 'Judging & Lunch', type: 'break' },
@@ -56,7 +56,7 @@ export default function Schedule() {
             <span className="gradient-text">Schedule</span>
           </h2>
           <p className="text-lg text-white/60 max-w-2xl mx-auto">
-            27th-28th February & 15th March at The Business School, Trinity College Dublin.
+            27th-28th February & 14th March at Portal, Trinity College Dublin.
           </p>
         </motion.div>
 

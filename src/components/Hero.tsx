@@ -50,7 +50,7 @@ export default function Hero() {
           className="flex flex-col sm:flex-row gap-4 justify-center mb-16"
         >
           <motion.a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSdXjP4DGZXweGOdDQQV3VORPMJ6rreePVXZQ6kbApmwQpnDWA/viewform?pli=1"
+            href="https://luma.com/mnjhtsic"
             className="btn-primary text-lg px-8 py-4"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
@@ -75,7 +75,7 @@ export default function Hero() {
         >
           {[
             { value: '80+', label: 'Passionate Changemakers' },
-            { value: '5', label: 'Innovation Tracks' },
+            { value: '6', label: 'Innovation Tracks' },
             { value: '3', label: 'Days of Building' },
           ].map((stat, index) => (
             <motion.div

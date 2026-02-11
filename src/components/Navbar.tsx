@@ -4,10 +4,11 @@ import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
 const navLinks = [
-  { name: 'About', href: '#about' },
-  { name: 'Tracks', href: '#tracks' },
-  { name: 'Schedule', href: '#schedule' },
-  { name: 'FAQ', href: '#faq' },
+  { name: 'About', href: '/#about' },
+  { name: 'Tracks', href: '/#tracks' },
+  { name: 'Schedule', href: '/#schedule' },
+  { name: 'Team', href: '/team' },
+  { name: 'FAQ', href: '/#faq' },
 ];
 
 export default function Navbar() {
